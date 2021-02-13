@@ -11,17 +11,20 @@
         <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
         <!-- End of Bootstrap Necessities -->
         <!-- icon -->
-        <link rel="icon" href="../images/logo.png">
+        <link rel="icon" href="images/logo.png">
         <!-- css -->
-        <link rel="stylesheet" href="../style/style.css">
+        <link rel="stylesheet" href="style/style.css">
     </head>
     <body>
         <!-- Navigation -->
         <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
             <div class="container-fluid">
-                <a href="home.php" class="navbar-brand">
+                <a href="index.php" class="navbar-brand" title="Home">
                     <!-- image logo -->
-                    <img class="logo" src="../images/logo1.png" alt="logo" title="Home">
+                    <img class="logo" src="images/logo.png" alt="logo">
+                    <span class="page-title">
+                        <h1>Dome of Don</h1>
+                    </span>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
@@ -29,7 +32,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a href="home.php" class="nav-link">Home</a>
+                            <a href="index.php" class="nav-link">Home</a>
                         </li>
                         <li class="nav-item">
                             <a href="about.php" class="nav-link">About</a>
@@ -47,9 +50,37 @@
                 </div>
             </div>
         </nav>
-        <!-- Resume Link -->
-        <a href="../resume/Resume 2-12-21.pdf" title="My Resume" download>My Resume</a>
+        <div>
+            <!-- Parallax -->
+                <section class="parallax">
+                    <div class="parallax-inner">
+                        <div class="about-page-header">
+                            <h1>WHO AM I?</h1>
+                            <br>
+                            <h3>Know more about me...</h3>
+                        </div>
+                    </div>
+                </section>
+            <div class="about-section">
+                <!-- Wrapper section -->
+                <div class="wrapper">
+                    <article class="main">
+                        <b>Studying to become Full-Stack Web Developer with experience in programming and deploying stand-alone 
+                            websites alongside professionals. Values quality over quantity, and a solid contributor and facilitator 
+                            in projects. Aims to apply his knowledge 
+                            and expertise in Web Development for the improvement of the company’s website.</b>
+                    </article>
+                    <aside class="aside aside1">
+                        <img src="images/me.jpg" alt="My image" title="Yep, that's me.">
+                        <br>
+                        <br>
+                        <!-- Resume Link -->
+                        <a class="btn btn-primary" href="resume/Resume 2-12-21.pdf" title="Download My Resume" download>My Resume</a>
+                    </aside>
+                </div>
+            </div>
+        </div>        
         <footer>
-            <center><p>Copyright © 2020 Lyndon Tomas</p></center>
+            <center><p>Copyright © 2021 Lyndon Tomas</p></center>
         </footer>
     </body>
