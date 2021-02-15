@@ -1,2 +1,3 @@
 User-agent:*
 Disallow:
+Sitemap: https://dome-of-don.herokuapp.com/sitemap.xml
