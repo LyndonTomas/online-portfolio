@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://dome-of-don.herokuapp.com/site-map.php
+Sitemap: https://dome-of-don.herokuapp.com/sitemap.xml
